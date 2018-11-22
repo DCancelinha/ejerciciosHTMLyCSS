@@ -1,15 +1,15 @@
 @charset "utf-8";
 @font-face {
     font-family: 'Open Sans';
-    src: url('imagenes/OpenSans-LightItalic.ttf')
+    src: url('fuentes/OpenSans-LightItalic.ttf')
 }
 @font-face {
     font-family: 'Permanent Marker';
-    src: url('imagenes/PermanentMarker-Regular.ttf')
+    src: url('fuentes/PermanentMarker-Regular.ttf')
 }
 @font-face {
     font-family: 'Fascinate Inline';
-    src: url('imagenes/FascinateInline-Regular.ttf')
+    src: url('fuentes/FascinateInline-Regular.ttf')
 }
 
 body {
