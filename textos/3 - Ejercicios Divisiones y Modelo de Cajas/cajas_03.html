@@ -6,17 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style type="text/css">
             body {
-                background-color: #fff176;
-                padding: 5px; 
+                background-color: white;
+                margin: 0;
+                border-right: 10px solid #fff176;
+                border-left: 10px solid #fff176;
+                font-family: sans-serif;
             }
 
             h1 {
-                margin:0;
-                text-align: center;
+                margin:0;                
                 background-color: #fff176;
-            }           
-            
-            .efemeride {
+                text-align: center;                           
+            }
+
+            div.efemeride {
                 float: left;
                 width: 34em;
                 border: #fbc02d 5px solid;
@@ -25,16 +28,49 @@
                 background-color: #ffeb3d;
                 
             }
-            div.texto {
+
+            .efemeride h1 {
+                color: brown;
+                background-color: #fbc02d;
                 text-align: left;
-                float: left;
-                margin-bottom: 10px;
-                margin-right: 10px;
-                padding: 5px;
-                background-color: orange;
-                color: white;
-                
             }
+
+            div.texto {
+                float: left;
+                width: 15em;
+                background-color: #fdd835;
+                border: #f57f17 5px solid;
+                border-top: none;
+                margin: 10px;
+            }
+
+            .texto h1 {
+                padding-left: 5px;
+                background-color: #f57f17;
+                color: white;
+                font-size: 150%;
+            }
+
+            .texto p {
+                margin: 5px;
+                text-align: justify;
+            }             
+
+            #footer {
+                clear: both;
+            }
+
+            #footer p {
+                margin:0;
+                background-color: #fff176;
+                font-size: 80%;
+            }
+            
+            html {
+                margin-bottom: 0;
+                padding-bottom: 2rem;
+            }
+
         </style>
     </head>
     <body>   
@@ -47,7 +83,7 @@
             </div>
             <div class="texto">
                 <h1>1287</h1>
-                <p>Graves inundaciones en el noroeste de Holanda provaocna más de 50.000 muertos </p>
+                <p>Graves inundaciones en el noroeste de Holanda provocan más de 50.000 muertos </p>
             </div>
         </div>
         <div class="efemeride">
@@ -76,6 +112,9 @@
             <div class="texto">
                     <h1>1947</h1>
             </div>        
-        </div>   
-        </body>
+        </div>
+        <div id=footer>
+                <p>Información obetenida de Wikipedia</p>
+            </div>           
+        </body>       
 </html>
